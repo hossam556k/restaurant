@@ -1,0 +1,71 @@
+header{
+    background:url(../../imges/3.jpg) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    max-width: 100%;
+    text-align: left;
+    height: auto;
+    overflow: hidden;
+    padding: 25px 0;
+    margin-top: 0;
+
+}
+header .row{
+    margin: 60px 0;
+}
+
+header h2{
+    color:#43121d;
+    margin: 0 0 25px;
+    font-size: 55px;
+    line-height: 60px;
+    font-family: 'Tajawal', sans-serif;
+    font-weight: bold;
+    width: 80%;
+
+
+}
+
+header p{
+    color:#555;
+    margin: 15px 0px;
+    font-family: 'Tajawal', sans-serif;
+    padding: 0 0 13pxz;
+    font-weight: bold;
+    letter-spacing:0.5;
+    line-height: 20px;
+    
+}
+
+header button{
+    width: 150px;
+    height: 50px;
+    background-color: #7c0f28;
+    border: 1px solid #7c0f28;
+    box-sizing: border-box;
+    text-align: center;
+    color: #fff;
+    margin: 20px 10px 20px 0px;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+
+header button:last-of-type{
+    background-color: #fff;
+    color: black;
+}
+
+header button:hover{
+    transition: .2s ease-in-out;
+
+}
+
+header button:last-of-type:hover{
+    background-color: #fff;
+    color:#ac2947;
+}
+header button:first-of-type:hover{
+    background-color: #fff;
+    color: #ac2947;
+}
